@@ -432,6 +432,7 @@ internal class LineItemAttachmentService : ILineItemAttachmentService
         return type ?? throw new InvalidOperationException("Unable to determine file type");
     }
 
+
     private static readonly Dictionary<string, string> ExtensionsMapping = new()
     {
         { "image/jpeg", ".jpg" },
