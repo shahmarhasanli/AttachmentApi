@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarrAttachmentManagementService.API", "WarrAttachmentManagementService.API\WarrAttachmentManagementService.API.csproj", "{B287D1C7-E202-49B6-AED9-52EE54575A77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarrAttachmentManagementService.Domain", "WarrAttachmentManagementService.Domain\WarrAttachmentManagementService.Domain.csproj", "{317FFE78-9884-4B7F-BC1F-76AEA792FEE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarrAttachmentManagementService.Infrastructure", "WarrAttachmentManagementService.Infrastructure\WarrAttachmentManagementService.Infrastructure.csproj", "{47A41ECD-20AB-4FAE-BC76-83074CC91260}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarrAttachmentManagementService.Application", "WarrAttachmentManagementService.Application\WarrAttachmentManagementService.Application.csproj", "{ED698416-2440-4646-8DC6-C97CDBD7778F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE431278-F06F-47A0-80BB-6A61C88FEF0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{61970C39-3D29-485D-8C72-13C6FEC94E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EADED6A-0A94-4D8A-A2C2-4D63477BD67C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B287D1C7-E202-49B6-AED9-52EE54575A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B287D1C7-E202-49B6-AED9-52EE54575A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B287D1C7-E202-49B6-AED9-52EE54575A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B287D1C7-E202-49B6-AED9-52EE54575A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317FFE78-9884-4B7F-BC1F-76AEA792FEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317FFE78-9884-4B7F-BC1F-76AEA792FEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317FFE78-9884-4B7F-BC1F-76AEA792FEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317FFE78-9884-4B7F-BC1F-76AEA792FEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A41ECD-20AB-4FAE-BC76-83074CC91260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A41ECD-20AB-4FAE-BC76-83074CC91260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A41ECD-20AB-4FAE-BC76-83074CC91260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A41ECD-20AB-4FAE-BC76-83074CC91260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED698416-2440-4646-8DC6-C97CDBD7778F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED698416-2440-4646-8DC6-C97CDBD7778F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED698416-2440-4646-8DC6-C97CDBD7778F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED698416-2440-4646-8DC6-C97CDBD7778F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B287D1C7-E202-49B6-AED9-52EE54575A77} = {AE431278-F06F-47A0-80BB-6A61C88FEF0E}
+		{317FFE78-9884-4B7F-BC1F-76AEA792FEE6} = {AE431278-F06F-47A0-80BB-6A61C88FEF0E}
+		{47A41ECD-20AB-4FAE-BC76-83074CC91260} = {AE431278-F06F-47A0-80BB-6A61C88FEF0E}
+		{ED698416-2440-4646-8DC6-C97CDBD7778F} = {AE431278-F06F-47A0-80BB-6A61C88FEF0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C1287E5-5020-41A0-BD9B-EAC0C4AD6BF0}
+	EndGlobalSection
+EndGlobal
